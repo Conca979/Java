@@ -1,0 +1,38 @@
+Present types of polymorphism with examples in Java.
+Answer: Polymorphism in Java is divided into two main types: compile-time polymorphism and runtime polymorphism.
+
+1. Compile-time polymorphism (also known as static polymorphism) is achieved through method overloading. Method overloading occurs when a class has multiple methods with the same name but different parameters. The compiler determines which method to call at compile time based on the method signature.
+  Example:
+"
+  class OverloadingExample {
+      void display(int a) {
+          System.out.println("Argument: " + a);
+      }
+      void display(int a, int b) {
+          System.out.println("Arguments: " + a + " and " + b);
+      }
+  }
+"
+
+2. Runtime polymorphism (also known as dynamic polymorphism) is achieved through method overriding. Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. The method to be called is determined at runtime based on the object's type. This is a key feature of inheritance.
+
+Example:
+"
+  class Animal {
+      void sound() {
+          System.out.println("Animal makes a sound");
+      }
+  }
+  class Dog extends Animal {
+      @Override
+      void sound() {
+          System.out.println("Dog barks");
+      }
+  }
+  class Main {
+      public static void main(String[] args) {
+          Animal myDog = new Dog();
+          myDog.sound(); // Output: Dog barks
+      }
+  }
+"

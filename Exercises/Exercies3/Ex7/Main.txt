@@ -1,0 +1,3 @@
+Polymorphism in Object-Oriented Programming
+Answer: Polymorphism is the concept that allows objects of different classes to be treated as objects of a common superclass. This enables a single interface to be used for different underlying forms or data types. 
+Polymorphism is a fundamental concept in object-oriented programming (OOP). The word "polymorphism" comes from the Greek words "poly" (many) and "morph" (forms), meaning "many forms." In programming, it allows a single function or method to be used with different types of objects, and the behavior of that function or method will be determined by the specific object it is called on. 

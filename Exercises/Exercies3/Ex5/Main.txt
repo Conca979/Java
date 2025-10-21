@@ -1,0 +1,11 @@
+5. Present types of inheritance in object-oriented programming. Which inheritance is not allowed in Java?
+
+The different types of inheritance in object-oriented programming are:
+
+1. single inheritance: A class inherits from a single base class
+2. Multiple inheritance: A class inherits from multiple base classes
+3. Multilevel inheritance: A clas inherits from a base class, which in turn inherits from another base class
+4. Hierarchical inheritance: Multiple classes inherits from a single base class
+5. Hybrid inheritance: A combination of two or more types of inheritance
+
+!!! Multiple inheritance is not allowed in Java
